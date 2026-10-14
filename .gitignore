@@ -1,0 +1,40 @@
+# Dependencies & Build artifacts
+**/vendor/
+**/node_modules/
+**/target/
+**/public/hot
+**/public/storage
+**/public/build
+
+# Environment files
+**/.env
+**/.env.*
+!**/.env.example
+
+# Laravel storage & cache
+FRONTEND/storage/*.key
+FRONTEND/storage/logs/*
+!FRONTEND/storage/logs/.gitkeep
+FRONTEND/storage/framework/cache/data/*
+!FRONTEND/storage/framework/cache/data/.gitkeep
+FRONTEND/storage/framework/views/*
+!FRONTEND/storage/framework/views/.gitkeep
+FRONTEND/storage/framework/sessions/*
+!FRONTEND/storage/framework/sessions/.gitkeep
+FRONTEND/storage/framework/testing/*
+!FRONTEND/storage/framework/testing/.gitkeep
+
+# SQLite database
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.db
+
+# Logs & OS / IDE files
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
